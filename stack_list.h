@@ -17,7 +17,7 @@ list *del_list(list *ls);
 
 list *access(list *ls, size_t id, list *st);
 
-stack *add_stack();
+stack *add_stack(stack *ls);
 
 stack *elem(list *ls);
 

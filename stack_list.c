@@ -120,11 +120,10 @@ list *del_list(list *ls){
     return e2;
 }
 
-stack *add_stack(){
+stack *add_stack(stack *head){
     char *buffer = malloc(max_len_string), *end;
     int state = 10;
     double num;
-    stack *head = alloc();
     printf("Working on a linked list\n");
     while(state != 6){
         printf("Stack items:\n");
